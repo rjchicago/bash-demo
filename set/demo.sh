@@ -7,7 +7,7 @@ trap 'echo "ERROR in ${FUNCNAME:-$0}${FUNCNAME:+() of $0}"' ERR
 # https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
 
 # DEMO USAGE:
-# sh errors/demo.sh && echo \\nSUCCESS! || echo \\nFAILED!
+# sh set/demo.sh && echo \\nSUCCESS! || echo \\nFAILED!
 # FOO=BAR !!
 
 # TODO: try commenting various combinations:

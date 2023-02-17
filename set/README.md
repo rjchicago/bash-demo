@@ -48,6 +48,11 @@ ERROR in my_function() of scripts/example.sh
 
 ## demo
 
+Try out the below `demo` script and toggle various commented fields to experiment with `set` flags.
+
 ``` sh
-sh demo.sh && echo \\nSUCCESS! || echo \\nFAILED!
+sh ./set/demo.sh && echo \\nSUCCESS! || echo \\nFAILED!
+
+# try also with FOO set...
+FOO=BAR sh ./set/demo.sh && echo \\nSUCCESS! || echo \\nFAILED!
 ```
